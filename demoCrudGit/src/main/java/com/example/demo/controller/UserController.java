@@ -9,6 +9,8 @@ public class UserController {
 	@PostMapping("/postData")
 	public String logincheck() {
 		
+		System.out.println("this is jaya");
 		return "Login check method";
+		
 	}
 }
