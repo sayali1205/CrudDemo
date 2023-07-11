@@ -8,9 +8,17 @@ import com.example.demo.repository.UserRepositry;
 import com.example.demo.service.UserService;
 @Service
 public class UserServiceImpl implements UserService{
-
+	
 	@Autowired
 	UserRepositry ur;
+
+	@Override
+	public Iterable<User> getUser() 
+	{
+		return ur.findAll();
+	}
+
+	
 	@Override
 	public User saveUser(User u) {
 		
