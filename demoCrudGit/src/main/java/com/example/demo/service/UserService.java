@@ -6,4 +6,6 @@ public interface UserService {
 
 	public User saveUser(User u);
 
+	public User updateUserData(User u);
+
 }
