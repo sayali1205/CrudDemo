@@ -28,6 +28,7 @@ public class UserController {
 	{
 		return us.getUser();
 	}
+	
 	@PostMapping("/saveData")
 	public User createUser(@RequestBody User u)
 	{
