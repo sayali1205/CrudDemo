@@ -18,4 +18,11 @@ public class UserServiceImpl implements UserService{
 		return ur.findAll();
 	}
 
+	
+	@Override
+	public User saveUser(User u) {
+		
+		return ur.save(u);
+	}
+
 }

@@ -6,4 +6,6 @@ public interface UserService {
 
 public	Iterable<User> getUser();
 
+	public User saveUser(User u);
+
 }
