@@ -8,4 +8,6 @@ public	Iterable<User> getUser();
 
 	public User saveUser(User u);
 
+	public User updateUserData(User u);
+
 }
